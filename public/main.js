@@ -98,7 +98,7 @@
         if (markerCount === locations.length - 1) {
           drawingMarker = false;
           if(markers.length == 0){
-            console.log("This movie wasn't shot in San Fran bounds");
+            console.log("The Geo code api couldn't find the address or the location is out ofs San Fran bounds");
           }
           clearInterval(interval);
         } else {
