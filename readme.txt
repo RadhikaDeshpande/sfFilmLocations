@@ -38,9 +38,12 @@ In this phase displaying of the markers for the locations of movies shot in sf i
    locations are ploted outside the San Francisco though they share a common location name.
 8. Current markers are cleared upon next search to ensure they do not add along on the map. 
 
+Code Structure:
+1. index.html, main.js and any library dependencies can be found inside the public folder.
+2. server.js is visible in the root folder.
+
 There you go. All set download the folder containing files and run it on local host. 
 I have set up a simple server using node.js.
-
 
 
 
