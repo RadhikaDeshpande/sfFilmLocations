@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map-canvas {
+        width: 500px;
+        height: 400px;
+        margin: 40px auto;
+      }
+      form{
+        width: 500px;
+        margin: 10px auto;
+      }
+      .ui-widget {
+        display: inline-block;
+        vertical-align: top;
+      }
+      button{
+        height: 27px;
+      }
+    </style>
+    <link rel = "stylesheet" href = "/jquery-ui.min.css">
+    
+
+  </head>
+  <body>
+   <form action="index_submit" method="get" accept-charset="utf-8">
+     <div class="ui-widget">
+      <label for="movieName">Movie Name: </label>
+      <input id="movieName" class="ui-autocomplete-input">
+    </div>
+    <button type="submit">Submit</button>
+   </form>
+  
+    <div id="map-canvas"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIG_UCBuxRGQsqvPVqtGaBHg05O1IWXQM"></script>
+    <script src = "/jquery.js"></script>
+    <script src = "/jquery-ui.min.js"></script>
+    <script src = "/sfmovies.js"></script>
+    <script src = "/main.js"></script>
+
+  </body>
+</html>
