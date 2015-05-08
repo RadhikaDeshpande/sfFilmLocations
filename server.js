@@ -10,7 +10,7 @@ app.use(morgan('dev'));
 
 app.use(express.static(__dirname + '/public'));
 
-
+// Starting the server
 app.listen(3000,function(err){
 	if(err){
 		console.log(err);
